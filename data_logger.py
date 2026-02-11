@@ -13,7 +13,7 @@ PORT = 'COM3'   # 장치관리자에서 확인한 포트 번호
 BAUDRATE = 115200
 FILENAME = datetime.now().strftime("Experiment_%Y%m%d_%H%M%S.csv") # 파일명 자동 생성
 
-# 2. 연결
+# 2. 연결/
 try:
     ser = serial.Serial(PORT, BAUDRATE)
     print(f"연결 성공! 데이터를 {FILENAME}에 저장합니다... (종료: Ctrl+C)")
