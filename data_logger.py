@@ -11,7 +11,7 @@ from datetime import datetime
 # 1. 설정 (본인 환경에 맞게 수정하세요!)
 PORT = 'COM3'   # 장치관리자에서 확인한 포트 번호
 BAUDRATE = 115200
-FILENAME = datetime.now().strftime("Experiment_%Y%m%d_%H%M%S.csv") # 파일명 자동 생성
+FILENAME = datetime.now().strftime("EDA_%Y%m%d_%H%M%S.csv") # 파일명 자동 생성
 
 # 2. 연결/
 try:
